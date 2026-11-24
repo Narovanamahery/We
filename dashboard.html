@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notre Relation — Tableau de bord v0.2</title>
+  <link rel="stylesheet" href="dashboard.css" />
+</head>
+<body>
+  <main class="dashboard-card">
+    <header class="top">
+      <div>
+        <span class="badge">Tableau de bord · v0.2</span>
+        <h1 id="welcome">Bienvenue 👋</h1>
+        <p class="subtitle">
+          Vue d’ensemble de notre relation. Modules en cours de développement.
+        </p>
+      </div>
+      <button id="logout-btn" class="logout">Se déconnecter</button>
+    </header>
+
+    <section class="grid">
+      <article class="feature">
+        <h2>💬 Complicité</h2>
+        <p>Module en cours d’optimisation. Résultats prometteurs.</p>
+      </article>
+
+      <article class="feature">
+        <h2>😂 Humour</h2>
+        <p>Déjà en production. Tests réussis à 87 %.</p>
+      </article>
+
+      <article class="feature">
+        <h2>📅 Moments</h2>
+        <p>Fonctionnalité à définir ensemble. Priorité haute.</p>
+      </article>
+
+      <article class="feature">
+        <h2>🔒 À définir</h2>
+        <p>Zone privée. Accès réservé après validation de la maquette.</p>
+      </article>
+    </section>
+
+    <div class="progress-block">
+      <div class="progress"><span></span></div>
+      <p class="status">Avancement global : 42 % — dépend surtout de ton retour.</p>
+    </div>
+
+    <button id="validate-btn" class="validate">
+      Valider la maquette
+    </button>
+
+    <p class="note">
+      Aucune relation n’a été codée en dur.<br />
+      Version non contractuelle, mais prometteuse.
+    </p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

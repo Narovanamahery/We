@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notre Relation — Login v0.1</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="login-card">
+    <span class="badge">Accès privé · v0.1</span>
+
+    <h1>Notre Relation</h1>
+    <p class="subtitle">
+      Espace encore en développement. Identifiants à définir ensemble.
+    </p>
+
+    <form id="login-form" novalidate>
+      <div class="field">
+        <label for="pseudo">Qui es-tu ?</label>
+        <input
+          id="pseudo"
+          type="text"
+          placeholder="Ton prénom ou ton pseudo"
+          autocomplete="username"
+        />
+      </div>
+
+      <div class="field">
+        <label for="password">Mot de passe</label>
+        <input
+          id="password"
+          type="password"
+          placeholder="À définir ensemble…"
+          autocomplete="current-password"
+        />
+      </div>
+
+      <button type="submit">Demander l’accès</button>
+    </form>
+
+    <a
+      class="forgot"
+      href="#"
+      id="forgot-link"
+    >
+      Mot de passe oublié ?
+    </a>
+
+    <p class="note">
+      Aucune relation n’a été codée en dur.<br />
+      Version non contractuelle, mais prometteuse.
+    </p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
